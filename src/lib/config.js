@@ -38,17 +38,17 @@ DDDDDDDDDDDDD`,
   // supports buttondown, convertkit, emailoctopus, klaviyo, mailchimp, revue
   // use false or null to disable newsletter
   // check .env.example for settings needed values for each service
-  newsletter: 'mailchimp',
+  newsletter: 'false',
 
-  multiuser: true
+  multiuser: false
 };
 
 export const user = {
   name: 'admin',
   // avatar value can be removed for image
-  avatar: '/logo.png',
+  //avatar: '/logo.png',
   // twitter value can be removed for no link to twitter
-  twitter: 'https://twitter.com/piedpiperplc'
+  //twitter: 'https://twitter.com/piedpiperplc'
 };
 
 export const navLinks = [
@@ -97,17 +97,5 @@ export const comment = {
     // theme when dark mode
     darkTheme: 'dark',
     themeURL: ''
-  },
-  utterances: {
-    // Visit the link below, and follow the steps in the 'configuration' section
-    // https://utteranc.es/
-    repo: 'akiarostami/sveltekit-tailwind-blog-starter',
-    issueTerm: 'pathname', // supported options: pathname, url, title
-    label: 'Comment 💬', // label (optional): Comment 💬
-    // theme example: github-light, github-dark, preferred-color-scheme
-    // github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light, gruvbox-dark"
-    theme: 'github-light',
-    // theme when dark mode
-    darkTheme: 'github-dark'
   }
 };
