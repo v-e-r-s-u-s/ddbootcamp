@@ -20,6 +20,10 @@ const getAuthors = () => {
 	return Object.entries(import.meta.glob('/content/authors/**/*.md', { eager: true }));
 };
 
+const getLessons = () => {
+	return Object.entries(import.meta.glob('/content/lessons/**/*.md', { eager: true }));
+}
+
 const getEntriesByType = (entryType) => {
 	switch (entryType) {
 		case 'posts':
@@ -28,6 +32,8 @@ const getEntriesByType = (entryType) => {
 			return getProjects();
 		case 'authors':
 			return getAuthors();
+		case 'lessons':
+			return getLessons();
 		default:
 			throw new Error(`unknown entry type ${entryType}`);
 	}

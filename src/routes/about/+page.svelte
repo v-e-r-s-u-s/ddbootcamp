@@ -17,12 +17,12 @@
 	<div class="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
 		<div class="flex flex-col items-center py-6">
 			<img src={config.siteLogo} alt="logo" class="h-64 w-64" />
-			<div class="flex space-x-2 pt-4">
+			<!-- <div class="flex space-x-2 pt-4">
 				<SocialIcon icon="mail" url={`mailto:${config.email}`} />
 				<SocialIcon icon="github" url={config.github} />
 				<SocialIcon icon="linkedin" url={config.linkedin} />
 				<SocialIcon icon="twitter" url={config.twitter} />
-			</div>
+			</div> -->
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
 			Pied Piper (PP) was an American tech company based in Silicon Valley, California. The company
@@ -33,7 +33,7 @@
 			series.
 		</div>
 	</div>
-	<div class="space-y-2 py-8 md:space-y-5">
+	<!-- <div class="space-y-2 py-8 md:space-y-5">
 		<Title h2 title="Contributors" />
 		<div class="grid xl:grid-cols-3 grid-cols-2 gap-4">
 			{#each authors as author}
@@ -54,5 +54,5 @@
 				</div>
 			{/each}
 		</div>
-	</div>
+	</div> -->
 </div>
