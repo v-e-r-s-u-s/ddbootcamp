@@ -34,7 +34,7 @@
 			</div> -->
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-			<p>
+			<!-- <p>
 				Dummy Daniel started as an initiative to tackle gatekeeping and imposter
 				syndrome within the software community. I have been in the software industry for 10+ years and
 				yet, by no means do I consider myself an expert. I've learned a lot but I have much more to
@@ -55,7 +55,7 @@
 				where to focus your efforts. I encourage you to proceed at your own pace and get comfortable
 				asking questions. Feel free to <a class="text-primary-500" href="{`mailto:${config.email}`}">e-mail</a>
 				me about anything.
-			</p>
+			</p> -->
 		</div>
 	</div>
 	<!-- <div class="space-y-2 py-8 md:space-y-5">
