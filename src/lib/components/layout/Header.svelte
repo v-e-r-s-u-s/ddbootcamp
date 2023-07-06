@@ -9,11 +9,22 @@
 		<a href="/" aria-label={config.headerTitle}>
 			<div class="flex items-center justify-between">
 				<div class="mr-3">
-					<img src="/logo.svg" alt="Logo" class="h-10 w-auto" />
+					<div class="w-auto flex"
+						 style="white-space: pre;font-family:'Courier New', Courier, monospace; font-size: 3px;">
+						<div class="w-6 text-primary-500">
+							{config.logoText}
+						</div>
+
+						<div class="w-6 text-primary-500 pl-5">
+							{config.logoText}
+						</div>
+			   		</div>
 				</div>
+
+				<!-- 
 				<div class="hidden text-4xl font-semibold sm:block font-title">
 					{config.headerTitle}
-				</div>
+				</div> -->
 			</div>
 		</a>
 	</div>

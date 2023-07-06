@@ -17,6 +17,23 @@ export const config = {
   linkedin: '',
   locale: 'en-US',
   primaryColor: '#06a261',
+  logoText: `
+DDDDDDDDDDDDD        
+D::::::::::::DDD     
+D:::::::::::::::DD   
+DDD:::::DDDDD:::::D  
+  D:::::D    D:::::D 
+  D:::::D     D:::::D
+  D:::::D     D:::::D
+  D:::::D     D:::::D
+  D:::::D     D:::::D
+  D:::::D     D:::::D
+  D:::::D     D:::::D
+  D:::::D    D:::::D 
+DDD:::::DDDDD:::::D  
+D:::::::::::::::DD   
+D::::::::::::DDD     
+DDDDDDDDDDDDD`,
 
   // supports buttondown, convertkit, emailoctopus, klaviyo, mailchimp, revue
   // use false or null to disable newsletter

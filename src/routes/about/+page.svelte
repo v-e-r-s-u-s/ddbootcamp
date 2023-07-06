@@ -16,7 +16,16 @@
 	</div>
 	<div class="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
 		<div class="flex flex-col items-center py-6">
-			<img src={config.siteLogo} alt="logo" class="h-64 w-64" />
+			<div class="h-64 w-64 text-primary-500 flex"
+			     style="white-space: pre;font-family:'Courier New', Courier, monospace; font-size: 10px;">
+				<div class="w-32">
+					{config.logoText}
+				</div>
+				<div class="w-32">
+					{config.logoText}
+				</div>
+			</div>
+			<!-- <img src={config.siteLogo} alt="logo" class="h-64 w-64" /> -->
 			<!-- <div class="flex space-x-2 pt-4">
 				<SocialIcon icon="mail" url={`mailto:${config.email}`} />
 				<SocialIcon icon="github" url={config.github} />
@@ -25,12 +34,28 @@
 			</div> -->
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
-			Pied Piper (PP) was an American tech company based in Silicon Valley, California. The company
-			was formed in 2014 by Richard Hendricks as a company to develop Richard's algorithm that he'd
-			created. The company is best known to for achieving the highest Weissman score in history
-			during their presentation at TechCrunch Disrupt. The company's first appearance was in the
-			Season One episode Minimum Viable Product and has since served as the primary company for the
-			series.
+			<p>
+				Dummy Daniel started as an initiative to tackle gatekeeping and imposter
+				syndrome within the software community. I have been in the software industry for 10+ years and
+				yet, by no means do I consider myself an expert. I've learned a lot but I have much more to
+				learn, hence the name.
+			</p>
+
+			<p>
+				Given the heavy focus on bootcamps and learning the tools, while forgoing the basics, this
+				site will attempt to establish a more fundamental approach to teaching software development.
+				Further, I often find when I am seeking answers, that search starts with a question.
+				As such, my lessons will be structured with goals in mind, and hopefully less
+				front-loaded with terminology and concepts that don't apply to the goal at hand.
+			</p>
+
+			<p>
+				Throughout my career software has changed considerably with substantially more emphasis on
+				full-stack, front-end frameworks, machine-learning / AI, etc. It can be difficult to determine
+				where to focus your efforts. I encourage you to proceed at your own pace and get comfortable
+				asking questions. Feel free to <a class="text-primary-500" href="{`mailto:${config.email}`}">e-mail</a>
+				me about anything.
+			</p>
 		</div>
 	</div>
 	<!-- <div class="space-y-2 py-8 md:space-y-5">
