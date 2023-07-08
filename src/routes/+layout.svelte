@@ -4,7 +4,6 @@
 	import Transition from '$lib/components/layout/Transition.svelte';
 	import Header from '$lib/components/layout/Header.svelte';
 	import Footer from '$lib/components/layout/Footer.svelte';
-	import Analytics from '$lib/components/analytics/index.svelte';
 	import '../app.css';
 
 	export let data = {};
@@ -21,5 +20,3 @@
 		<Footer />
 	</div>
 </div>
-
-<Analytics />

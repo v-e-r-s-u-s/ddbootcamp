@@ -63,13 +63,6 @@ export const openGraph = {
   height: 630
 };
 
-// supported systems: googleAnalytics, plausible, and simpleAnalytics
-export const analytics = {
-  googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
-  plausibleDomain: '', // e.g. pied-piper-blog.netlify.app
-  simpleAnalytics: false // true or false
-};
-
 // supported providers: giscus, utterances
 export const comment = {
   provider: 'giscus',
