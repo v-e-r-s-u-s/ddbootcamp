@@ -44,4 +44,20 @@ const toggleDarkMode = () => {
 	return setDarkMode(!isDarkMode());
 };
 
-export { isDarkMode, setDarkMode, toggleDarkMode };
+function toggleGiscusTheme () {
+	const theme = isDarkMode() ? 'dark' : 'light';
+
+    function sendMessage(message) {
+      const iframe = document.querySelector('iframe.giscus-frame');
+      if (!iframe) return;
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    }
+
+    sendMessage({
+      setConfig: {
+        theme: theme
+      }
+    });
+}
+
+export { isDarkMode, setDarkMode, toggleDarkMode, toggleGiscusTheme };

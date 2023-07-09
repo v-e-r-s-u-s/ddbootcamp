@@ -69,10 +69,10 @@ export const comment = {
   giscus: {
     // Visit the link below, and follow the steps in the 'configuration' section
     // https://giscus.app/
-    repo: 'akiarostami/sveltekit-tailwind-blog-starter',
-    reposId: 'R_kgDOIen4kw',
-    category: 'Sample Site Comments',
-    categoryId: 'DIC_kwDOIen4k84CS9tX',
+    repo: 'v-e-r-s-u-s/dummydaniel',
+    reposId: 'R_kgDOJ3wBDg',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDOJ3wBDs4CXw2E',
     mapping: 'pathname', // supported options: pathname, url, title
     reactionsEnabled: '1', // Emoji reactions: 1 = enable / 0 = disable
     // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable
@@ -86,9 +86,12 @@ export const comment = {
     loading: 'lazy',
     // theme example: light, dark, preferred_color_scheme, light_high_contrast, dark_high_contrast
     // light_protanopia, dark_protanopiam, light_tritanopia, dark_tritanopia, dark_dimmed, transparent_dark
+    //theme: 'light',
     theme: 'light',
     // theme when dark mode
     darkTheme: 'dark',
     themeURL: ''
   }
+
+
 };

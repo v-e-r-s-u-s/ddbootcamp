@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
-	import { toggleDarkMode, isDarkMode, setDarkMode } from '$utils/theme';
+	import { toggleDarkMode, isDarkMode, setDarkMode, toggleGiscusTheme } from '$utils/theme';
 
 	let darkMode = null;
 
@@ -12,6 +12,7 @@
 
 	function toggle() {
 		darkMode = toggleDarkMode();
+		toggleGiscusTheme();
 	}
 </script>
 
