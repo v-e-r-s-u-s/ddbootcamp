@@ -11,11 +11,11 @@
 				<div class="mr-3">
 					<div class="w-auto flex"
 						 style="white-space: pre;font-family:'Courier New', Courier, monospace; font-size: 3px;">
-						<div class="w-6 text-primary-500">
+						<div class="w-6">
 							{config.logoText}
 						</div>
 
-						<div class="w-6 text-primary-500 pl-5">
+						<div class="w-6 pl-5">
 							{config.logoText}
 						</div>
 			   		</div>

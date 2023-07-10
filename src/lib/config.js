@@ -53,7 +53,7 @@ export const user = {
 
 export const navLinks = [
   { href: '/about', title: 'About' },
-  { href: '/lessons', title: 'Lessons' },
+  { href: '/lesson', title: 'Lessons' },
   { href: '/blog', title: 'Blog' }
 ];
 
