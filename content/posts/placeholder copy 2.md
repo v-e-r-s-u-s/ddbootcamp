@@ -1,11 +1,11 @@
 ---
-title: 'Another Placeholder'
+title: 'Placeholder Post'
 date: '2023-07-05'
 draft: false
-summary: "Can I search by summary?"
+summary: "Nothing to see here."
 tags:
-  - Site3
-  - History3
+  - Site2
+  - History2
 image: 
 author: Daniel Walter
 ---

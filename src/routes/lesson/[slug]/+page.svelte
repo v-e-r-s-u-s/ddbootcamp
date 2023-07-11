@@ -10,5 +10,6 @@
 
 <Head title={lesson.title} />
 
-<Lesson lesson={lesson} {author} />
+<!-- <Lesson lesson={lesson} {author} /> -->
+<Lesson {lesson} {author} />
 <Comments />

@@ -79,26 +79,6 @@
 									lesson.image && 'h-full'
 								}  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
 							>
-								<!-- {#if lesson.image}
-									{#if lesson.href}
-										<a
-											href={`/lesson/${lesson.slug}`}
-											aria-label={`Link to ${lesson.title}`}
-										>
-											<img
-												alt={lesson.title}
-												src={lesson.image}
-												class="object-cover object-center aspect-video w-full"
-											/>
-										</a>
-									{:else}
-										<img
-											alt={lesson.title}
-											src={lesson.image}
-											class="object-cover object-center aspect-video w-full"
-										/>
-									{/if}
-								{/if} -->
 								<div class="p-6">
 									<h2 class="mb-3 text-2xl font-bold leading-8 tracking-tight">
 										{#if lesson.href}

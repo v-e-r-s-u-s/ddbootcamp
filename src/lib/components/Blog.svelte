@@ -11,7 +11,7 @@
 	<article>
 		<div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
 			<header class="pt-6 xl:pb-6">
-				{#if post.image}
+				<!-- {#if post.image}
 					<div class=" w-full pb-6">
 						<img
 							alt={post.title}
@@ -19,7 +19,7 @@
 							class="object-cover object-center w-full h-auto"
 						/>
 					</div>
-				{/if}
+				{/if} -->
 				<div class="space-y-1 text-center">
 					<div>
 						<h1
