@@ -71,8 +71,8 @@ export const comment = {
     // https://giscus.app/
     repo: 'v-e-r-s-u-s/dummydaniel',
     reposId: 'R_kgDOJ3wBDg',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOJ3wBDs4CXw2E',
+    category: 'General',
+    categoryId: 'DIC_kwDOJ3wBDs4CXw2F',
     mapping: 'pathname', // supported options: pathname, url, title
     reactionsEnabled: '1', // Emoji reactions: 1 = enable / 0 = disable
     // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable

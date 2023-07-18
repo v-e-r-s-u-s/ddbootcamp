@@ -1,5 +1,5 @@
 ---
-name: Daniel Walter
+name: Dummy Daniel
 avatar:
 occupation: Software Engineer
 company: Dummy Daniel

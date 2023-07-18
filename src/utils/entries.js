@@ -43,7 +43,8 @@ const getMetadata = (entryType, filepath, entry) => {
 	return {
 		...entry.metadata,
 
-		author: entryType === 'posts' && !config.multiuser ? user.name : entry.metadata.author,
+		//author: entryType === 'posts' && !config.multiuser ? user.name : entry.metadata.author,
+		author: entry.metadata.author,
 
 		content: entry.default.render().html,
 

@@ -14,9 +14,6 @@ export async function load({ params }) {
 		throw error(404, 'No lesson found');
 	}
 
-	console.log(lesson);
-	console.log(author);
-
 	return {
 		// eslint-disable-next-line no-unused-vars
 		lesson: lesson,

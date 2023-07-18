@@ -20,6 +20,15 @@
 			<Newsletter />
 		{/if}
 		<div class="mb-4 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
+			Content © {year} {config.author}. All Rights Reserved. &nbsp; • &nbsp;
+			Theme &nbsp; © 2022 &nbsp;
+			<a class="text-primary-500" href="https://github.com/akiarostami/sveltekit-tailwind-blog-starter">
+				{config.themeAuthor}
+			</a>
+			&nbsp;
+			<a class="text-primary-500" href="/THEME-LICENSE">LICENSE</a>
+		</div>
+		<!-- <div class="mb-4 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
 			© {year} {config.author} &nbsp; • &nbsp;
 			Site Design By &nbsp;
 			<a class="text-primary-500" href="https://github.com/akiarostami/sveltekit-tailwind-blog-starter">
@@ -27,6 +36,6 @@
 			</a>
 			&nbsp; • &nbsp;
 			Customized By {config.author}
-		</div>
+		</div> -->
 	</div>
 </footer>

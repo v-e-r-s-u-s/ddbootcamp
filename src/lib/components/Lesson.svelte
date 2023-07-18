@@ -40,7 +40,7 @@
 				class="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0"
 				style="grid-template-rows: auto 1fr;"
 			>
-				<dl class="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
+				<!-- <dl class="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
 					<dt class="sr-only">Authors</dt>
 					<dd>
 						<ul
@@ -51,7 +51,7 @@
 							</li>
 						</ul>
 					</dd>
-				</dl>
+				</dl> -->
 				<div class="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
 					<div class="prose max-w-none pt-10 pb-8 dark:prose-dark">
 						{@html lesson.content}
@@ -83,7 +83,7 @@
 										<div
 											class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 										>
-											<a href={`/blog/${lesson.prev.slug}`}>{lesson.prev.title}</a>
+											<a href={`/lesson/${lesson.prev.slug}`}>{lesson.prev.title}</a>
 										</div>
 									</div>
 								{/if}
@@ -95,7 +95,7 @@
 										<div
 											class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 										>
-											<a href={`/blog/${lesson.next.slug}`}>{lesson.next.title}</a>
+											<a href={`/lesson/${lesson.next.slug}`}>{lesson.next.title}</a>
 										</div>
 									</div>
 								{/if}
@@ -104,10 +104,10 @@
 					</div>
 					<div class="pt-4 xl:pt-8">
 						<a
-							href="/blog"
+							href="/lesson"
 							class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 						>
-							&larr; Back to the blog
+							&larr; Back to lessons
 						</a>
 					</div>
 				</footer>

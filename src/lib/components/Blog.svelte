@@ -49,7 +49,7 @@
 				class="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0"
 				style="grid-template-rows: auto 1fr;"
 			>
-				<dl class="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
+				<!-- <dl class="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
 					<dt class="sr-only">Authors</dt>
 					<dd>
 						<ul
@@ -60,7 +60,7 @@
 							</li>
 						</ul>
 					</dd>
-				</dl>
+				</dl> -->
 				<div
 					class="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0"
 				>

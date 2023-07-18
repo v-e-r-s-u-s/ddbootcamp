@@ -7,9 +7,9 @@ tags:
   - Site2
   - History2
 image: 
-author: Daniel Walter
+author: Dummy Daniel
 ---
 
-By [Daniel Walter](https://www.dummydaniel.com/about)
+By [Dummy Daniel](https://www.dummydaniel.com/about)
 
 Put your markdown here
