@@ -4,7 +4,6 @@
 	import Author from '$lib/components/Author.svelte';
 
 	export let lesson;
-	export let author;
 </script>
 
 <div class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -40,18 +39,6 @@
 				class="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0"
 				style="grid-template-rows: auto 1fr;"
 			>
-				<!-- <dl class="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
-					<dt class="sr-only">Authors</dt>
-					<dd>
-						<ul
-							class="flex justify-center space-x-8 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8"
-						>
-							<li class="flex items-center space-x-2">
-								<Author author={author.name} avatar={author.avatar} twitter={author.twitter} />
-							</li>
-						</ul>
-					</dd>
-				</dl> -->
 				<div class="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
 					<div class="prose max-w-none pt-10 pb-8 dark:prose-dark">
 						{@html lesson.content}

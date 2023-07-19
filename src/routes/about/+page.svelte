@@ -34,6 +34,14 @@
 			</div> -->
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
+			<!-- <p>Two decades ago I was a fresh college student determining which of my passions to pursue.
+				One of the paths I left behind was teaching.
+			</p>
+
+			<p>
+
+			</p> -->
+
 			<!-- <p>
 				Dummy Daniel started as an initiative to tackle gatekeeping and imposter
 				syndrome within the software community. I have been in the software industry for 10+ years and
