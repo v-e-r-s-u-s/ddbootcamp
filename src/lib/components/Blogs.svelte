@@ -53,49 +53,51 @@
 			</div>
 		</div>
 	</div>
-	{#if !currentPosts.length}
-		No post found.
-	{:else}
-		<ul>
-			{#each currentPosts as post}
-				<li class="py-12">
-					<article>
-						<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-							<Author author={post.author} postDate={post.date} />
-							<div class="space-y-5 xl:col-span-3">
-								<div class="space-y-6">
-									<div>
-										<h2 class="text-2xl font-bold leading-8 tracking-tight">
-											<a href={`/blog/${post.slug}`} class="text-gray-900 dark:text-gray-100">
-												{post.title}
-											</a>
-										</h2>
-										<div class="flex flex-wrap">
-											{#each post.tags as tag}
-												<Tag text={tag} />
-											{/each}
+	<div class="container py-6">
+		{#if !currentPosts.length}
+			No post found.
+		{:else}
+			<ul>
+				{#each currentPosts as post}
+					<li class="py-12">
+						<article>
+							<div class="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+								<Author author={post.author} postDate={post.date} />
+								<div class="space-y-5 xl:col-span-3">
+									<div class="space-y-6">
+										<div>
+											<h2 class="text-2xl font-bold leading-8 tracking-tight">
+												<a href={`/blog/${post.slug}`} class="text-gray-900 dark:text-gray-100">
+													{post.title}
+												</a>
+											</h2>
+											<div class="flex flex-wrap">
+												{#each post.tags as tag}
+													<Tag text={tag} />
+												{/each}
+											</div>
+										</div>
+										<div class="prose max-w-none text-gray-500 dark:text-gray-400">
+											{post.summary}
 										</div>
 									</div>
-									<div class="prose max-w-none text-gray-500 dark:text-gray-400">
-										{post.summary}
-									</div>
+									{#if more}
+										<div class="text-base font-medium leading-6">
+											<a
+												href={`/blog/${post.slug}`}
+												class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+												aria-label={`Read "${post.title}"`}
+											>
+												Read more &rarr;
+											</a>
+										</div>
+									{/if}
 								</div>
-								{#if more}
-									<div class="text-base font-medium leading-6">
-										<a
-											href={`/blog/${post.slug}`}
-											class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-											aria-label={`Read "${post.title}"`}
-										>
-											Read more &rarr;
-										</a>
-									</div>
-								{/if}
 							</div>
-						</div>
-					</article>
-				</li>
-			{/each}
-		</ul>
-	{/if}
+						</article>
+					</li>
+				{/each}
+			</ul>
+		{/if}
+	</div>
 </div>

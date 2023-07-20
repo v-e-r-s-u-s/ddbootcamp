@@ -11,4 +11,5 @@
 <Head title={lesson.title} />
 
 <Lesson {lesson} {author} />
-<Comments />
+
+<Comments class="px-4" />

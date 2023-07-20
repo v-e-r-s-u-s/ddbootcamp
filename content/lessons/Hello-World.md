@@ -7,6 +7,7 @@ tags:
   - DD10
   - Hello World
 image: 
+url: https://stackblitz.com/edit/dd10-exercises?file=hello-world%2Fhello-world.html
 href: http://www.dummydaniel.com
 author: Dummy Daniel
 ---
@@ -118,8 +119,8 @@ When you have substituted 'Hello World' appropriately, the preview should look l
  # Solution
 
 <details class="spoiler" style="--hidden: 'Text to be hidden'">
-<summary>Click here to reveal solution!</summary>
-<pre>
-<h1>Hello World!</h1>
-</pre> 
+  <summary>Click here to reveal solution!</summary>
+  <pre>
+    {'<h1>Hello World!</h1>'}
+  </pre> 
 </details>
