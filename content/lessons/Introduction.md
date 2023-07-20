@@ -1,7 +1,7 @@
 ---
 title: 'DD10: Intro to Programming'
 date: '2023-07-11'
-draft: false
+draft: true
 summary: "Where should I start?"
 tags:
   - DD10

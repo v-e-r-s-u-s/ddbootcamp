@@ -35,7 +35,27 @@
 		</div>
 		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
 			<!-- <p>Two decades ago I was a fresh college student determining which of my passions to pursue.
-				One of the paths I left behind was teaching.
+				One of the paths I left behind was teaching and every time I found myself questioning
+				my choice to study software, there was always a moment of "what if".
+			</p>
+
+			<p>
+				Recently, I have found myself questioning how to elevate myself to the next level.
+			</p>
+
+			<p>
+				Software engineering is a field rife with impostor syndrome, a feeling I myself have been
+				susceptible to quite often. There is a tremendous focus on rockstar or 10x developers.
+			</p>
+
+			<p>Recently I found myself with an overabundance of time and a necessity to refresh my own skills
+				and the thought occurred to me, why "what if"? Why not?
+			</p>
+
+			<p>
+				Software engineering is a field rife with imposter syndrome. It is a very humbling field,
+				making smart people feel dumb. It is ok to feel dumb and feeling that way doesn't mean you
+				have nothing of value to offer.
 			</p>
 
 			<p>

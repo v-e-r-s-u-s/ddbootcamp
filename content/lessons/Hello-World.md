@@ -1,8 +1,8 @@
 ---
-title: 'DD10: Our First Program'
-date: '2023-07-11'
-draft: false
-summary: "Where should I start?"
+title: 'DD10: Hello World'
+date: '2023-07-19'
+draft: true
+summary: "Where do I start?"
 tags:
   - DD10
   - Hello World
@@ -10,7 +10,48 @@ image:
 href: http://www.dummydaniel.com
 author: Dummy Daniel
 ---
-# Hello World
+# It's a small world after all
+Hello world is a traditional first program, for good reason. It is one of the simplest tasks with any purpose, namely to identify your program is working correctly and can display information.
+
+The goal of hello world is to simply to print the words 'Hello World!' to some kind of screen.
+
+# The tools of the trade
+Open this [link](https://stackblitz.com/edit/dd10-exercises?file=hello-world%2Fhello-world.html) in a new window. Use the right click menu or hold `Ctrl+Shift` while you click in Chrome, or just `Shift` for Firefox.
+
+
+
+
+
+Welcome to the world of hello worlds. If you seek a career in software, it will be your first of many.
+
+Hello world is the traditional first program, for good reason. Even after you learn HTML, there will be many other languages and frameworks you will learn and the first step is usually learning to build the simplest program possible with a tool before expanding on.
+
+Usually, the simplest task with any meaning, is simply getting a program to display some information.
+
+So today, we will build the simplest web page, that will display the words, `Hello World!`.
+
+# The Tools of our trade
+When I first started software development, it was a differnt beast. Before I could write my first lines of code in C, I had to learn about compilers and syntax. You get to skip that part because you are already using the only tool you need for html, the browser.
+
+Open this [link](https://stackblitz.com) in a new window (Hold `Ctrl+Shift` and clikc in Chrome. Just `Shift` in Firefox.)
+
+# Additional Resources
+- Odin Project (good for in-depth explanations, project-based but it takes a while to get to the good stuff)
+- mdn web docs (also good for in-depth)
+- freecodecamp (project based approach - not too much depth - not very well organized)
+- codeacademy (not sure yet...)
+- udemy free courses (YMMV - obviously depends on which course you choose)
+
+
+Before diving into writing your own program, I'd like to lay out an example that will serve as the basis of our first program.
+
+This is a simple program that simply displays the words 'Hello Stranger' on an html page.
+
+One of the first things you'll note is that there are many versions of this 
+
+Btw, if you would like to be more than strangers please subscriber to my newsletter. You will receive updates when I post a new lesson or blog. There will also be videos associated with each of my lessons.
+
+
 A traditional first step in software programming is to write a "Hello World" program. It is one of the easiest programs you can write in any language and it demonstrates what is often a core goal of software, to display information to a user.
 
 With many languages it also introduces you to compiling your code and the tools you will work with. With Javascript, we get to skip past all of that since it will run directly in your browser!
@@ -79,8 +120,6 @@ When you have substituted 'Hello World' appropriately, the preview should look l
 <details class="spoiler" style="--hidden: 'Text to be hidden'">
 <summary>Click here to reveal solution!</summary>
 <pre>
-function helloWorld() {'{'}
-  return 'Hello World!';
-{'}'}
+<h1>Hello World!</h1>
 </pre> 
 </details>

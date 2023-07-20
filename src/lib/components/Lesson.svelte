@@ -6,6 +6,13 @@
 	export let lesson;
 </script>
 
+<!-- <div>
+	<iframe 
+	  src="https://stackblitz.com/edit/dd10-exercises?embed=1&file=hello-world%2Fhello-world.html"
+	  style="width:100%;height:500px;"
+	></iframe>
+</div> -->
+
 <div class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
 	<article>
 		<div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">

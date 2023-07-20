@@ -1,7 +1,7 @@
 ---
 title: 'Placeholder Post'
 date: '2023-07-05'
-draft: false
+draft: true
 summary: "Nothing to see here."
 tags:
   - Site
