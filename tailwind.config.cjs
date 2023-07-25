@@ -42,15 +42,15 @@ module.exports = {
 						h2: {
 							fontFamily: 'Saira',
 							fontWeight: '800',
-							color: theme('colors.gray.900')
+							color: theme('colors.green.900')
 						},
 						h3: {
 							fontFamily: 'Saira',
 							fontWeight: '800',
-							color: theme('colors.gray.900')
+							color: theme('colors.green.900')
 						},
 						'h4,h5,h6': {
-							color: theme('colors.gray.900')
+							color: theme('colors.green.900')
 						},
 						pre: {
 							backgroundColor: theme('colors.gray.800')

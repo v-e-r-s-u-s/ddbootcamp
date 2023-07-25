@@ -38,7 +38,9 @@ DDDDDDDDDDDDD`,
   // supports buttondown, convertkit, emailoctopus, klaviyo, mailchimp, revue
   // use false or null to disable newsletter
   // check .env.example for settings needed values for each service
-  newsletter: 'false',
+  newsletter: {
+    provider: 'convertkit'
+  },
 
   multiuser: false
 };
