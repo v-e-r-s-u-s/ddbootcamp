@@ -9,6 +9,7 @@
 <footer>
 	<div class="mt-16 flex flex-col items-center border-t pt-6 gap-2">
 		<div class="mb-3 flex space-x-2">
+			<a href="{config.email ? `mailto:${config.email}` : ''}">Contact: </a>
 			<SocialIcon icon="mail" url={config.email ? `mailto:${config.email}` : ''} />
 			<!-- <SocialIcon icon="github" url={config.github} />
 			<SocialIcon icon="facebook" url={config.facebook} />

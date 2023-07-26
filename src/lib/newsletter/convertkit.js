@@ -9,7 +9,9 @@ async function registerEmail(email) {
 	try {
 		const data = { email, api_key: CONVERTKIT_API_KEY };
 
-		const response = await fetch(`${CONVERTKIT_API_URL}forms/${CONVERTKIT_FORM_ID}/subscribe`, {
+		const url = `${CONVERTKIT_API_URL}forms/${CONVERTKIT_FORM_ID}/subscribe`
+
+		const response = await fetch(url, {
 			body: JSON.stringify(data),
 			headers: { 'Content-Type': 'application/json' },
 			method: 'POST'
@@ -18,9 +20,7 @@ async function registerEmail(email) {
 		if (response.status >= 400) {
 			throw error(400, "couldn't add email to the newsletter");
 		} else {
-			return new Response(JSON.stringify({ message: 'Email added to the newsletter' }), {
-				status: 200
-			});
+			return response;
 		}
 	} catch (err) {
 		console.error(err);

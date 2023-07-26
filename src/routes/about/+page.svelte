@@ -14,19 +14,8 @@
 	<div class="space-y-2 pt-6 pb-8 md:space-y-5">
 		<Title title="About" />
 	</div>
-	<div class="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-		<div class="flex flex-col items-center py-6">
-			<div class="h-64 w-64 text-primary-500 flex"
-			     style="white-space: pre;font-family:'Courier New', Courier, monospace; font-size: 10px;">
-				<div class="w-32">
-					{config.logoText}
-				</div>
-				<div class="w-32">
-					{config.logoText}
-				</div>
-			</div>
-		</div>
-		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
+	<div class="items-start space-y-2 xl:space-y-0">
+		<div class="prose max-w-none pt-8 pb-8 dark:prose-dark">
 			<h1>Welcome</h1>
 
 			<p>

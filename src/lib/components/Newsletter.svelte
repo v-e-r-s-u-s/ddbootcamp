@@ -11,8 +11,8 @@
 			method: 'post',
 			body: JSON.stringify(body)
 		});
-		const registerEmailResponse = await result.json();
-		if (registerEmailResponse.status === 200) {
+
+		if (result.status === 200) {
 			email = '';
 			error = false;
 			submitted = true;
