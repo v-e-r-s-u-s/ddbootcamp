@@ -14,7 +14,6 @@
 		giscus.setAttribute('data-mapping', config.mapping);
 		giscus.setAttribute('data-reactions-enabled', config.reactionsEnabled);
 		giscus.setAttribute('data-input-position', config.inputPosition ?? 'bottom');
-		//giscus.setAttribute('data-theme', config.theme ?? 'preferred_color_scheme');
 		giscus.setAttribute('data-theme', isDarkMode() ? 'dark' : 'light');
 		giscus.setAttribute('data-lang', config.lang ?? 'en');
 		giscus.setAttribute('data-loading', config.loading ?? '');

@@ -1,7 +1,6 @@
 <script>
 	import { comment } from '$lib/config';
 	import Giscus from './Giscus.svelte';
-	import { isDarkMode } from '$utils/theme';
 
 	const commentProvider = comment.provider;
 </script>
